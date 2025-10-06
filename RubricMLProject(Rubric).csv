@@ -1,0 +1,45 @@
+﻿,Does not meet (0-1),Nearly meets (2),Meets (3-4),Exceeds (5)
+"Data Understanding & EDA (15%)
+(OLR AIT ///)
+-Descriptive statistics
+-Visualizations
+-Relationship analysis
+-Identification of key data issues (missing values, duplicates, outliers, imbalance, …)
+-Interpretation of findings",Minimal or no EDA. Plots/stats shown without interpretation. Major issues ignored.,Some plots/stats; superficial analysis; misses key insights,Solid EDA covering most of the above. Major issues identified and discussed.,Comprehensive EDA with clear insights. Subtler issues identified. Visuals well-presented and explained.
+"Implementation & Data Pipeline (20%)
+(OLR AIT ///)
+-Preprocessing and cleaning
+-Feature engineering
+-Leakage guards
+-Integration of model(s) into a full pipeline
+-Reproduciblility",Pipeline broken or missing major components,Pipeline exists but fragile. Preprocessing flawed or misuses libraries.,Functional end-to-end pipeline. Preprocessing correctly applied. Minor reproducibility issues.,"Clean, modular, reproducible pipeline. Good practices (clear code, logical workflow). Well-documented workflow."
+"Model Selection & Justification (15%)
+(OLR AIT ///)
+(OLR AIT ///)
+-Choice of algorithm(s) appropriate for the problem (including baselines and candidates)
+- Hyperparameter Tuning
+-Comparison of multiple models
+-Justification of choices","No valid model, or arbitrary choice with no reasoning.
+No HPT attempted or HPT misapplied","Model selected but poorly justified. Little awareness of alternatives. Minimal tuning, no explanation.",Appropriate model chosen. Reasoning clear. Some alternatives considered. Basic HPT performed.,"Multiple models compared systematically. Strong justification, with awareness of assumptions and trade-offs. Thoughtful HPT process."
+"Evaluation  & Analysis (20%)
+(OLR AIT ///)
+(OLR AIT ///)
+-Correct evaluation metrics chosen
+-Sound validation strategy (train/val/test split, cross-validation)
+-Visualise the results
+-Correct interpretation of results
+-Critical reflection on model strenghts and weaknesses (e.g., performance, limitations, risks, fairness, bias)","No evaluation, or metrics/validation clearly wrong","Some metrics, but inappropriate or shallow. Little interpretation.",Correct metrics and validation. Results interpreted reasonably. Some reflection on limitations/bias.,"Thorough evaluation with appropriate metrics and validation. Deep interpretation of results. Possibly reflection on risks, fairness, and ethical use."
+"Individual Oral Defense (30%)
+(OLR AIT ///)
+(OLR AIT ///)
+-Student explains their personal contributions
+-Demonstrates understanding of code and decisions
+-Ability to handle “what if” questions
+-Ability to adapt reasoning to new but related scenarios
+-Awareness of the full ML lifecycle","Cannot explain own contributions, little understanding of code","Explains some contributions and choices, but with gaps or limited depth; struggles to answer follow-up questions","Explains contributions clearly, demonstrates understanding of pipeline/choices","Explains deeply, anticipates questions, demonstrates broad awareness of ML lifecycle, can reason in new scenarios."
+"Deployment (+5% Bonus; only if ML lifecyle steps ≥ Meets)
+(OLR AIT ///)
+-Students expose their trained model as an API
+-Should accept input data, return predictions in a usable format
+-Doesn’t need to be production-ready (Docker, CI/CD, cloud, …)
+-Must be demonstrated live (e.g., curl, Postman)",API deployment doesn't work or is missing,N/A,N/A,API deployment works and is demonstrated
