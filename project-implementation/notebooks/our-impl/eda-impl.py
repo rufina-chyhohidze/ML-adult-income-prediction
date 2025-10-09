@@ -8,8 +8,8 @@ column_names = [
     "hours-per-week","native-country","income"
 ]
 #reading from train and test data
-df_train_data = pd.read_csv('data/adult.data', names=column_names)
-df_test_data = pd.read_csv('data/adult.test', skiprows=1, names=column_names)
+df_train_data = pd.read_csv('../data/adult.data', names=column_names)
+df_test_data = pd.read_csv('../data/adult.test', skiprows=1, names=column_names)
 
 print(df_train_data.head(5))
 print(df_test_data.head(5))
@@ -211,12 +211,11 @@ plt.xticks(rotation=0)
 plt.grid(axis="y", linestyle="--", alpha=0.6)
 plt.show()
 print("---------------------------------------------------------------------------------------------------------------")
+
 #outliers
 
-#%% md
 ### Determine whether there are outliers using the IQR method
 #We’ll use the IQR method for **age**, **hours-per-week**, **capital-gain**, and **capital-loss** to detect potential outliers and interpret whether they are errors or valid data points.
-#%%
 
 for col in ["age", "hours-per-week", "capital-gain", "capital-loss"]:
     Q1 = df_train_data[col].quantile(0.25)
@@ -228,13 +227,11 @@ for col in ["age", "hours-per-week", "capital-gain", "capital-loss"]:
     outliers = df_train_data[(df_train_data[col] < lower_bound) | (df_train_data[col] > upper_bound)]
     print(f"{col}: {len(outliers)} outliers detected (out of {len(df_train_data)})")
 
-#%% md
 ### Interpretation
 """- **Age:** A few older individuals (>80) may appear as outliers, but they are real people — keep them.  
 - **Hours-per-week:** Some work extreme hours (90–99). Valid but rare; keep them as real behavior examples.  
 - **Capital-gain / Capital-loss:** Many zeros with a few very large values. These are legitimate financial values, not errors.  
 Thus, we **keep** all outliers for now. We may try log-transforming these columns later to reduce skew."""
-#%%
 
 # Apply log1p transform for skewed financial features (optional for linear models)
 df_train_data["capital-gain_log"] = np.log1p(df_train_data["capital-gain"])
@@ -250,17 +247,17 @@ for col in ["capital-gain_log", "capital-loss_log"]:
     outliers = df_train_data[(df_train_data[col] < lower_bound) | (df_train_data[col] > upper_bound)]
     print(f"{col}: {len(outliers)} outliers detected after log transform")
 
-#%% md
+
 """After applying the log transformation, the **capital-gain** and **capital-loss** distributions become less skewed,
 and the number of detected outliers decreases.  
 This confirms that the extreme financial values are genuine but highly skewed, so the log transform helps stabilize them
 for models that assume more normally distributed inputs."""
 
-#%% md
+
 # ### Visualizing Outliers Before and After Log Transformation
 # We’ll use boxplots to see how outliers appear in **age**, **hours-per-week**, **capital-gain**, and **capital-loss**,
 # and check how the log transformation affects the last two financial features.
-#%%
+
 import matplotlib.pyplot as plt
 
 # --- Before transformation ---
