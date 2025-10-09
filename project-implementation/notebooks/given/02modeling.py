@@ -19,7 +19,7 @@ from sklearn.linear_model import LogisticRegression
 # -----------------------------
 # 0) Data loading + EDA cleaning (programmatic)
 # -----------------------------
-def load_and_basic_clean(train_path="data/adult.data", test_path="data/adult.test"):
+def load_and_basic_clean(train_path="../data/adult.data", test_path="../data/adult.test"):
     column_names = [
         "age","workclass","fnlwgt","education","education-num","marital-status",
         "occupation","relationship","race","sex","capital-gain","capital-loss",
@@ -106,7 +106,7 @@ numeric_skewed_pipeline = Pipeline(steps=[
 
 categorical_pipeline = Pipeline(steps=[
     ("imputer", SimpleImputer(strategy="most_frequent")),   # falls back to most common; we also have 'Unknown'
-    ("ohe", OneHotEncoder(handle_unknown="ignore", min_frequency=0.01, sparse_output=False))
+    ("ohe", OneHotEncoder(handle_unknown="ignore"))
 ])
 
 # ColumnTransformer stitches everything together and keeps column order stable
@@ -120,17 +120,17 @@ preprocess = ColumnTransformer(
     verbose_feature_names_out=False
 )
 
-# -----------------------------
-# 4) (Optional) Feature selection inside the pipeline
-# -----------------------------
-# Why: after OHE, we can end up with many columns. Mutual information is non-linear, robust for classification.
-# Keep this OFF by default. You can set k to an int (e.g., 60) to enable.
-K_BEST = None  # set to an integer to enable, e.g., 60
-
-if K_BEST is not None:
-    feature_selection = SelectKBest(score_func=mutual_info_classif, k=K_BEST)
-else:
-    feature_selection = "passthrough"
+# # -----------------------------
+# # 4) (Optional) Feature selection inside the pipeline
+# # -----------------------------
+# # Why: after OHE, we can end up with many columns. Mutual information is non-linear, robust for classification.
+# # Keep this OFF by default. You can set k to an int (e.g., 60) to enable.
+# K_BEST = None  # set to an integer to enable, e.g., 60
+#
+# if K_BEST is not None:
+#     feature_selection = SelectKBest(score_func=mutual_info_classif, k=K_BEST)
+# else:
+#     feature_selection = "passthrough"
 
 # -----------------------------
 # 5) Build a modeling-ready pipeline (estimator here is just a placeholder)
@@ -139,7 +139,7 @@ else:
 # In Step 3 you'll swap/compare multiple models (LogReg, RF, XGB/GBDT) with hyperparameter tuning.
 pipe_logreg = Pipeline(steps=[
     ("preprocess", preprocess),
-    ("feat_sel", feature_selection),
+    # ("feat_sel", feature_selection),
     ("clf", LogisticRegression(max_iter=1000, n_jobs=None, class_weight=None))
 ])
 
