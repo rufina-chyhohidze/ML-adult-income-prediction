@@ -1,1 +1,7 @@
-ucimlrepo
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+fastapi
+uvicorn
