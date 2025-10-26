@@ -1,0 +1,139 @@
+### 1. Working-class (Low income)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 32,
+  "workclass": "Private",
+  "education": "HS-grad",
+  "education_num": 9,
+  "marital_status": "Never-married",
+  "occupation": "Handlers-cleaners",
+  "relationship": "Not-in-family",
+  "race": "White",
+  "sex": "Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": "United-States"
+}
+
+### 2. Manager with college degree (High income likely)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 45,
+  "workclass": "Private",
+  "education": "Bachelors",
+  "education_num": 13,
+  "marital_status": "Married-civ-spouse",
+  "occupation": "Exec-managerial",
+  "relationship": "Husband",
+  "race": "White",
+  "sex": "Male",
+  "capital_gain": 4000,
+  "capital_loss": 0,
+  "hours_per_week": 55,
+  "native_country": "United-States"
+}
+
+### 3. Teacher (odd case)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 36,
+  "workclass": "Private",
+  "education": "Masters",
+  "education_num": 14,
+  "marital_status": "Married-civ-spouse",
+  "occupation": "Prof-specialty",
+  "relationship": "Wife",
+  "race": "White",
+  "sex": "Female",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 40,
+  "native_country": "United-States"
+}
+
+### 4. Retired senior (Low income)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 67,
+  "workclass": "Private",
+  "education": "HS-grad",
+  "education_num": 9,
+  "marital_status": "Married-civ-spouse",
+  "occupation": "Retired",
+  "relationship": "Husband",
+  "race": "White",
+  "sex": "Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 10,
+  "native_country": "United-States"
+}
+
+### 5. Young IT professional (low income)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 29,
+  "workclass": "Private",
+  "education": "Bachelors",
+  "education_num": 13,
+  "marital_status": "Never-married",
+  "occupation": "Tech-support",
+  "relationship": "Not-in-family",
+  "race": "Asian-Pac-Islander",
+  "sex": "Female",
+  "capital_gain": 5000,
+  "capital_loss": 0,
+  "hours_per_week": 45,
+  "native_country": "India"
+}
+
+### 6. Manual laborer (Normal income)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 41,
+  "workclass": "Private",
+  "education": "Some-college",
+  "education_num": 10,
+  "marital_status": "Married-civ-spouse",
+  "occupation": "Craft-repair",
+  "relationship": "Husband",
+  "race": "Black",
+  "sex": "Male",
+  "capital_gain": 0,
+  "capital_loss": 0,
+  "hours_per_week": 45,
+  "native_country": "United-States"
+}
+
+### 7. Investor (High income)
+POST http://127.0.0.1:8000/predict
+Content-Type: application/json
+
+{
+  "age": 55,
+  "workclass": "Private",
+  "education": "Doctorate",
+  "education_num": 16,
+  "marital_status": "Married-civ-spouse",
+  "occupation": "Exec-managerial",
+  "relationship": "Husband",
+  "race": "White",
+  "sex": "Male",
+  "capital_gain": 10000,
+  "capital_loss": 0,
+  "hours_per_week": 60,
+  "native_country": "United-States"
+}
