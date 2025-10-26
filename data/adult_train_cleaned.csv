@@ -4145,7 +4145,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 30,Private,HS-grad,9,Married-civ-spouse,Machine-op-inspct,Husband,White,Male,0,0,44,United-States,0,0.0,0.0,0.3,44.0,1,Male_Husband,25–35,0
 52,Private,Some-college,10,Divorced,Adm-clerical,Not-in-family,White,Female,0,0,40,United-States,0,0.0,0.0,0.19230769230769232,40.0,0,Female_Not-in-family,45–55,0
 42,Self-emp-not-inc,Prof-school,15,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,1902,50,United-States,0,0.0,7.551186867296149,0.35714285714285715,50.0,1,Male_Husband,35–45,1
-50,Self-emp-inc,11th,7,Never-married,Exec-managerial,Other-relative,White,Male,0,2444,40,United-States,0,0.0,7.801800401908973,0.14,40.0,0,Male_Other-relative,45–55,1
+50,Self-emp-inc,11th,7,Never-married,Exec-managerial,Other-relative,White,Male,0,2444,40,United-States,0,0.0,7.801800401908972,0.14,40.0,0,Male_Other-relative,45–55,1
 29,Private,HS-grad,9,Married-civ-spouse,Sales,Wife,White,Female,0,0,18,United-States,0,0.0,0.0,0.3103448275862069,18.0,1,Female_Wife,25–35,0
 18,Private,HS-grad,9,Never-married,Adm-clerical,Own-child,White,Female,0,0,20,United-States,0,0.0,0.0,0.5,20.0,0,Female_Own-child,<25,0
 35,Local-gov,Some-college,10,Married-civ-spouse,Other-service,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.2857142857142857,40.0,1,Male_Husband,25–35,0
@@ -4572,7 +4572,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 19,Private,Preschool,1,Never-married,Farming-fishing,Not-in-family,White,Male,0,0,36,Hong,0,0.0,0.0,0.05263157894736842,36.0,0,Male_Not-in-family,<25,0
 37,Private,Some-college,10,Married-civ-spouse,Exec-managerial,Husband,White,Male,0,0,50,United-States,0,0.0,0.0,0.2702702702702703,50.0,1,Male_Husband,35–45,0
 40,Private,HS-grad,9,Divorced,Craft-repair,Unmarried,White,Male,0,0,40,United-States,0,0.0,0.0,0.225,40.0,0,Male_Unmarried,35–45,0
-51,State-gov,Assoc-voc,11,Divorced,Tech-support,Not-in-family,White,Male,0,2444,39,United-States,0,0.0,7.801800401908973,0.21568627450980393,39.0,0,Male_Not-in-family,45–55,1
+51,State-gov,Assoc-voc,11,Divorced,Tech-support,Not-in-family,White,Male,0,2444,39,United-States,0,0.0,7.801800401908972,0.21568627450980393,39.0,0,Male_Not-in-family,45–55,1
 22,Private,Some-college,10,Never-married,Sales,Own-child,Black,Female,0,0,40,United-States,0,0.0,0.0,0.45454545454545453,40.0,0,Female_Own-child,<25,0
 34,Private,HS-grad,9,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,40,Nicaragua,0,0.0,0.0,0.2647058823529412,40.0,1,Male_Husband,25–35,0
 27,Private,Bachelors,13,Never-married,Adm-clerical,Not-in-family,White,Female,0,0,40,United-States,0,0.0,0.0,0.48148148148148145,40.0,0,Female_Not-in-family,25–35,0
@@ -5524,7 +5524,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 24,Private,HS-grad,9,Never-married,Other-service,Own-child,White,Female,594,0,15,United-States,0,6.38856140554563,0.0,0.375,110.82842108318445,0,Female_Own-child,<25,0
 19,Private,Some-college,10,Never-married,Prof-specialty,Own-child,White,Male,0,0,50,United-States,0,0.0,0.0,0.5263157894736842,50.0,0,Male_Own-child,<25,0
 60,Private,HS-grad,9,Separated,Other-service,Not-in-family,White,Female,0,0,25,United-States,1,0.0,0.0,0.15,25.0,0,Female_Not-in-family,55–65,0
-42,Private,Some-college,10,Never-married,Exec-managerial,Not-in-family,White,Female,0,2444,40,United-States,0,0.0,7.801800401908973,0.23809523809523808,40.0,0,Female_Not-in-family,35–45,1
+42,Private,Some-college,10,Never-married,Exec-managerial,Not-in-family,White,Female,0,2444,40,United-States,0,0.0,7.801800401908972,0.23809523809523808,40.0,0,Female_Not-in-family,35–45,1
 22,Private,Some-college,10,Never-married,Adm-clerical,Own-child,Black,Male,0,0,30,Dominican-Republic,0,0.0,0.0,0.45454545454545453,30.0,0,Male_Own-child,<25,0
 31,State-gov,HS-grad,9,Divorced,Protective-serv,Own-child,Other,Male,0,0,40,United-States,0,0.0,0.0,0.2903225806451613,40.0,0,Male_Own-child,25–35,0
 23,Private,Some-college,10,Married-civ-spouse,Handlers-cleaners,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.43478260869565216,40.0,1,Male_Husband,<25,0
@@ -7854,7 +7854,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 53,Private,7th-8th,4,Divorced,Machine-op-inspct,Not-in-family,White,Female,0,0,40,United-States,0,0.0,0.0,0.07547169811320754,40.0,0,Female_Not-in-family,45–55,0
 26,Self-emp-not-inc,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.34615384615384615,40.0,1,Male_Husband,25–35,0
 55,Local-gov,Some-college,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.18181818181818182,40.0,1,Male_Husband,45–55,1
-32,Private,Bachelors,13,Never-married,Exec-managerial,Other-relative,White,Male,0,2444,50,United-States,0,0.0,7.801800401908973,0.40625,50.0,0,Male_Other-relative,25–35,1
+32,Private,Bachelors,13,Never-married,Exec-managerial,Other-relative,White,Male,0,2444,50,United-States,0,0.0,7.801800401908972,0.40625,50.0,0,Male_Other-relative,25–35,1
 29,Private,HS-grad,9,Married-civ-spouse,Other-service,Wife,White,Female,0,0,40,Cuba,0,0.0,0.0,0.3103448275862069,40.0,1,Female_Wife,25–35,0
 51,Private,HS-grad,9,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.17647058823529413,40.0,1,Male_Husband,45–55,1
 46,Self-emp-not-inc,Some-college,10,Married-civ-spouse,Sales,Husband,White,Male,0,0,60,United-States,0,0.0,0.0,0.21739130434782608,60.0,1,Male_Husband,45–55,1
@@ -10005,7 +10005,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 27,Private,HS-grad,9,Married-civ-spouse,Machine-op-inspct,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.3333333333333333,40.0,1,Male_Husband,25–35,0
 45,Private,HS-grad,9,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.2,40.0,1,Male_Husband,35–45,0
 57,Private,10th,6,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,43,United-States,0,0.0,0.0,0.10526315789473684,43.0,1,Male_Husband,55–65,0
-33,Private,Assoc-voc,11,Separated,Craft-repair,Not-in-family,White,Male,0,2444,42,United-States,0,0.0,7.801800401908973,0.3333333333333333,42.0,0,Male_Not-in-family,25–35,1
+33,Private,Assoc-voc,11,Separated,Craft-repair,Not-in-family,White,Male,0,2444,42,United-States,0,0.0,7.801800401908972,0.3333333333333333,42.0,0,Male_Not-in-family,25–35,1
 40,Private,Some-college,10,Separated,Sales,Not-in-family,Amer-Indian-Eskimo,Female,0,0,40,United-States,0,0.0,0.0,0.25,40.0,0,Female_Not-in-family,35–45,0
 30,Private,Some-college,10,Never-married,Sales,Not-in-family,White,Male,0,0,45,United-States,0,0.0,0.0,0.3333333333333333,45.0,0,Male_Not-in-family,25–35,1
 20,Private,Some-college,10,Never-married,Adm-clerical,Own-child,White,Female,0,0,20,United-States,0,0.0,0.0,0.5,20.0,0,Female_Own-child,<25,0
@@ -12397,7 +12397,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 59,Private,Assoc-acdm,12,Married-civ-spouse,Craft-repair,Husband,White,Male,7298,0,20,United-States,0,8.895492631451633,0.0,0.2033898305084746,197.90985262903266,1,Male_Husband,55–65,1
 27,Private,HS-grad,9,Divorced,Adm-clerical,Not-in-family,White,Female,0,0,40,United-States,0,0.0,0.0,0.3333333333333333,40.0,0,Female_Not-in-family,25–35,0
 65,Private,HS-grad,9,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,0,40,United-States,1,0.0,0.0,0.13846153846153847,40.0,1,Male_Husband,55–65,0
-50,Private,HS-grad,9,Widowed,Sales,Not-in-family,White,Female,0,2444,72,United-States,0,0.0,7.801800401908973,0.18,72.0,0,Female_Not-in-family,45–55,1
+50,Private,HS-grad,9,Widowed,Sales,Not-in-family,White,Female,0,2444,72,United-States,0,0.0,7.801800401908972,0.18,72.0,0,Female_Not-in-family,45–55,1
 29,Private,Bachelors,13,Married-civ-spouse,Machine-op-inspct,Husband,White,Male,0,0,48,United-States,0,0.0,0.0,0.4482758620689655,48.0,1,Male_Husband,25–35,0
 57,Self-emp-inc,HS-grad,9,Married-civ-spouse,Sales,Husband,White,Male,0,0,40,Cuba,0,0.0,0.0,0.15789473684210525,40.0,1,Male_Husband,55–65,0
 22,State-gov,Some-college,10,Never-married,Other-service,Own-child,White,Female,0,0,15,United-States,0,0.0,0.0,0.45454545454545453,15.0,0,Female_Own-child,<25,0
@@ -14053,7 +14053,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 35,Private,Some-college,10,Never-married,Prof-specialty,Own-child,White,Female,0,0,40,United-States,0,0.0,0.0,0.2857142857142857,40.0,0,Female_Own-child,25–35,0
 40,Private,HS-grad,9,Married-civ-spouse,Adm-clerical,Husband,White,Male,0,0,40,Mexico,0,0.0,0.0,0.225,40.0,1,Male_Husband,35–45,0
 52,Local-gov,Bachelors,13,Married-civ-spouse,Prof-specialty,Husband,White,Male,7688,0,40,United-States,0,8.94754601503218,0.0,0.25,397.90184060128723,1,Male_Husband,45–55,1
-40,Self-emp-not-inc,Prof-school,15,Never-married,Prof-specialty,Not-in-family,White,Male,0,2444,45,United-States,0,0.0,7.801800401908973,0.375,45.0,0,Male_Not-in-family,35–45,1
+40,Self-emp-not-inc,Prof-school,15,Never-married,Prof-specialty,Not-in-family,White,Male,0,2444,45,United-States,0,0.0,7.801800401908972,0.375,45.0,0,Male_Not-in-family,35–45,1
 23,Private,Assoc-acdm,12,Never-married,Other-service,Own-child,White,Male,0,0,25,Columbia,0,0.0,0.0,0.5217391304347826,25.0,0,Male_Own-child,<25,0
 25,Private,11th,7,Separated,Machine-op-inspct,Not-in-family,Black,Male,0,0,35,United-States,0,0.0,0.0,0.28,35.0,0,Male_Not-in-family,<25,0
 49,Private,Bachelors,13,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.2653061224489796,40.0,1,Male_Husband,45–55,1
@@ -14536,7 +14536,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 63,Private,7th-8th,4,Married-civ-spouse,Other-service,Husband,Asian-Pac-Islander,Male,0,0,40,South,1,0.0,0.0,0.06349206349206349,40.0,1,Male_Husband,55–65,0
 43,Self-emp-not-inc,Bachelors,13,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.3023255813953488,40.0,1,Male_Husband,35–45,1
 39,Self-emp-not-inc,10th,6,Married-spouse-absent,Other-service,Not-in-family,White,Female,0,1721,15,United-States,0,0.0,7.451241684987676,0.15384615384615385,15.0,1,Female_Not-in-family,35–45,0
-75,Self-emp-not-inc,Some-college,10,Married-civ-spouse,Craft-repair,Husband,Black,Male,0,1735,40,United-States,1,0.0,7.459338895220296,0.13333333333333333,40.0,1,Male_Husband,65+,0
+75,Self-emp-not-inc,Some-college,10,Married-civ-spouse,Craft-repair,Husband,Black,Male,0,1735,40,United-States,1,0.0,7.459338895220295,0.13333333333333333,40.0,1,Male_Husband,65+,0
 41,Private,HS-grad,9,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,45,United-States,0,0.0,0.0,0.21951219512195122,45.0,1,Male_Husband,35–45,0
 38,Private,Bachelors,13,Divorced,Sales,Own-child,White,Male,0,0,50,United-States,0,0.0,0.0,0.34210526315789475,50.0,0,Male_Own-child,35–45,0
 30,Private,Assoc-voc,11,Divorced,Exec-managerial,Not-in-family,White,Male,0,0,40,United-States,0,0.0,0.0,0.36666666666666664,40.0,0,Male_Not-in-family,25–35,0
@@ -17174,7 +17174,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 52,Private,Assoc-voc,11,Separated,Exec-managerial,Unmarried,Black,Female,0,0,60,United-States,0,0.0,0.0,0.21153846153846154,60.0,0,Female_Unmarried,45–55,0
 27,Self-emp-not-inc,HS-grad,9,Married-civ-spouse,Other-service,Husband,Black,Male,0,0,60,United-States,0,0.0,0.0,0.3333333333333333,60.0,1,Male_Husband,25–35,1
 26,Private,Bachelors,13,Never-married,Sales,Not-in-family,White,Female,0,0,55,United-States,0,0.0,0.0,0.5,55.0,0,Female_Not-in-family,25–35,0
-39,Private,Masters,14,Never-married,Sales,Not-in-family,White,Male,0,2444,45,United-States,0,0.0,7.801800401908973,0.358974358974359,45.0,0,Male_Not-in-family,35–45,1
+39,Private,Masters,14,Never-married,Sales,Not-in-family,White,Male,0,2444,45,United-States,0,0.0,7.801800401908972,0.358974358974359,45.0,0,Male_Not-in-family,35–45,1
 31,Local-gov,HS-grad,9,Married-civ-spouse,Protective-serv,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.2903225806451613,40.0,1,Male_Husband,25–35,1
 50,Self-emp-not-inc,Bachelors,13,Married-civ-spouse,Exec-managerial,Husband,White,Male,0,0,13,United-States,0,0.0,0.0,0.26,13.0,1,Male_Husband,45–55,0
 45,State-gov,Some-college,10,Married-civ-spouse,Prof-specialty,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.2222222222222222,40.0,1,Male_Husband,35–45,1
@@ -17250,7 +17250,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 25,Private,HS-grad,9,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,44,United-States,0,0.0,0.0,0.36,44.0,1,Male_Husband,<25,1
 26,Private,9th,5,Never-married,Other-service,Own-child,White,Female,0,0,38,El-Salvador,0,0.0,0.0,0.19230769230769232,38.0,0,Female_Own-child,25–35,0
 35,Private,Some-college,10,Divorced,Exec-managerial,Not-in-family,White,Male,0,0,40,Mexico,0,0.0,0.0,0.2857142857142857,40.0,0,Male_Not-in-family,25–35,0
-53,Private,Some-college,10,Separated,Craft-repair,Not-in-family,White,Male,0,2444,45,United-States,0,0.0,7.801800401908973,0.18867924528301888,45.0,0,Male_Not-in-family,45–55,1
+53,Private,Some-college,10,Separated,Craft-repair,Not-in-family,White,Male,0,2444,45,United-States,0,0.0,7.801800401908972,0.18867924528301888,45.0,0,Male_Not-in-family,45–55,1
 20,Private,10th,6,Divorced,Prof-specialty,Not-in-family,White,Female,0,0,40,United-States,0,0.0,0.0,0.3,40.0,0,Female_Not-in-family,<25,0
 68,Self-emp-inc,HS-grad,9,Married-civ-spouse,Sales,Husband,White,Male,0,0,40,United-States,1,0.0,0.0,0.1323529411764706,40.0,1,Male_Husband,65+,0
 44,State-gov,HS-grad,9,Married-civ-spouse,Other-service,Wife,White,Female,0,0,15,United-States,0,0.0,0.0,0.20454545454545456,15.0,1,Female_Wife,35–45,0
@@ -18332,7 +18332,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 57,Private,HS-grad,9,Never-married,Adm-clerical,Own-child,White,Female,0,0,40,United-States,0,0.0,0.0,0.15789473684210525,40.0,0,Female_Own-child,55–65,0
 30,Private,HS-grad,9,Married-civ-spouse,Craft-repair,Husband,White,Male,0,0,50,United-States,0,0.0,0.0,0.3,50.0,1,Male_Husband,25–35,0
 42,Private,HS-grad,9,Divorced,Machine-op-inspct,Not-in-family,White,Male,0,0,45,United-States,0,0.0,0.0,0.21428571428571427,45.0,0,Male_Not-in-family,35–45,0
-73,Private,1st-4th,2,Married-civ-spouse,Transport-moving,Husband,White,Male,0,1735,20,United-States,1,0.0,7.459338895220296,0.0273972602739726,20.0,1,Male_Husband,65+,0
+73,Private,1st-4th,2,Married-civ-spouse,Transport-moving,Husband,White,Male,0,1735,20,United-States,1,0.0,7.459338895220295,0.0273972602739726,20.0,1,Male_Husband,65+,0
 73,Self-emp-not-inc,HS-grad,9,Married-civ-spouse,Exec-managerial,Husband,White,Male,0,0,40,United-States,1,0.0,0.0,0.1232876712328767,40.0,1,Male_Husband,65+,0
 24,Self-emp-not-inc,Some-college,10,Never-married,Prof-specialty,Not-in-family,Asian-Pac-Islander,Male,0,0,40,United-States,0,0.0,0.0,0.4166666666666667,40.0,0,Male_Not-in-family,<25,0
 40,State-gov,Bachelors,13,Divorced,Prof-specialty,Not-in-family,White,Male,0,0,40,United-States,0,0.0,0.0,0.325,40.0,0,Male_Not-in-family,35–45,0
@@ -19830,7 +19830,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 30,Private,Bachelors,13,Never-married,Sales,Not-in-family,White,Male,0,0,40,United-States,0,0.0,0.0,0.43333333333333335,40.0,0,Male_Not-in-family,25–35,0
 33,Private,Some-college,10,Divorced,Craft-repair,Unmarried,White,Male,0,0,50,United-States,0,0.0,0.0,0.30303030303030304,50.0,0,Male_Unmarried,25–35,0
 25,Private,HS-grad,9,Divorced,Craft-repair,Not-in-family,White,Male,3325,0,45,United-States,0,8.109525659752872,0.0,0.36,409.92865468887925,0,Male_Not-in-family,<25,0
-40,Local-gov,Some-college,10,Never-married,Protective-serv,Not-in-family,White,Male,0,2444,40,United-States,0,0.0,7.801800401908973,0.25,40.0,0,Male_Not-in-family,35–45,1
+40,Local-gov,Some-college,10,Never-married,Protective-serv,Not-in-family,White,Male,0,2444,40,United-States,0,0.0,7.801800401908972,0.25,40.0,0,Male_Not-in-family,35–45,1
 52,Private,Some-college,10,Married-civ-spouse,Transport-moving,Husband,White,Male,15024,0,60,Canada,0,9.617470759403409,0.0,0.19230769230769232,637.0482455642045,1,Male_Husband,45–55,1
 22,Private,12th,8,Never-married,Transport-moving,Other-relative,White,Male,0,0,40,United-States,0,0.0,0.0,0.36363636363636365,40.0,0,Male_Other-relative,<25,0
 32,Private,Prof-school,15,Married-civ-spouse,Prof-specialty,Husband,White,Male,3908,0,40,United-States,0,8.271036865792954,0.0,0.46875,370.84147463171814,1,Male_Husband,25–35,0
@@ -20555,7 +20555,7 @@ age,workclass,education,education-num,marital-status,occupation,relationship,rac
 70,Self-emp-not-inc,Bachelors,13,Married-civ-spouse,Craft-repair,Husband,White,Male,0,2377,12,United-States,1,0.0,7.774015077250727,0.18571428571428572,12.0,1,Male_Husband,65+,1
 49,Private,Some-college,10,Married-civ-spouse,Craft-repair,Husband,Black,Male,0,0,30,United-States,0,0.0,0.0,0.20408163265306123,30.0,1,Male_Husband,45–55,0
 41,Private,Some-college,10,Divorced,Sales,Not-in-family,White,Female,0,0,15,United-States,0,0.0,0.0,0.24390243902439024,15.0,0,Female_Not-in-family,35–45,0
-43,Private,Assoc-acdm,12,Divorced,Craft-repair,Not-in-family,White,Male,0,2444,70,United-States,0,0.0,7.801800401908973,0.27906976744186046,70.0,0,Male_Not-in-family,35–45,1
+43,Private,Assoc-acdm,12,Divorced,Craft-repair,Not-in-family,White,Male,0,2444,70,United-States,0,0.0,7.801800401908972,0.27906976744186046,70.0,0,Male_Not-in-family,35–45,1
 39,Private,7th-8th,4,Married-civ-spouse,Transport-moving,Husband,White,Male,0,0,40,United-States,0,0.0,0.0,0.10256410256410256,40.0,1,Male_Husband,35–45,0
 46,Private,Some-college,10,Divorced,Machine-op-inspct,Own-child,White,Female,0,0,17,United-States,0,0.0,0.0,0.21739130434782608,17.0,0,Female_Own-child,45–55,0
 58,Private,1st-4th,2,Separated,Farming-fishing,Not-in-family,Black,Male,0,0,50,United-States,0,0.0,0.0,0.034482758620689655,50.0,0,Male_Not-in-family,55–65,0
