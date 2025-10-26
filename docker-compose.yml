@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  api:
+    image: python:3.11-slim
+    container_name: adult-income-api
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: >
+      sh -c "pip install -r requirements.txt &&
+             uvicorn api:app --host 0.0.0.0 --port 8000 --reload"
+    ports:
+      - "8000:8000"
