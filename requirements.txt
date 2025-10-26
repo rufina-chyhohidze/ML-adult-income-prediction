@@ -1,7 +1,8 @@
-pandas
+pandas==2.1.4
 numpy
 scikit-learn
 matplotlib
 joblib
 fastapi
 uvicorn
+matplotlib
